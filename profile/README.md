@@ -153,12 +153,14 @@ Progressive enhancement with 4 profiles:
 
 | Framework | Import | Export | Status |
 |-----------|:------:|:------:|--------|
-| **LangChain** | ✅ | ✅ | Documented |
-| **OpenAI** | ✅ | ✅ | Documented |
-| **AutoGen** | ✅ | ✅ | Documented |
-| **MCP** | ✅ | ⚠️ | Partial |
-| **CrewAI** | ⚠️ | ⚠️ | Planned |
-| **Hugging Face** | ⚠️ | ⚠️ | Planned |
+| **LangChain** | ⚠️ | ⚠️ | Coming Soon |
+| **OpenAI** | ⚠️ | ⚠️ | Coming Soon |
+| **AutoGen** | ⚠️ | ⚠️ | Coming Soon |
+| **Vercel AI SDK** | ⚠️ | ⚠️ | Coming Soon |
+| **Anthropic** | ⚠️ | ⚠️ | Coming Soon |
+| **MCP** | ⚠️ | ⚠️ | Coming Soon |
+| **CrewAI** | ⚠️ | ⚠️ | Coming Soon |
+| **Hugging Face** | ⚠️ | ⚠️ | Coming Soon |
 
 ---
 
@@ -190,7 +192,6 @@ Progressive enhancement with 4 profiles:
 
 ### Community
 
-- **Discussions**: [GitHub Discussions](https://github.com/orgs/JSON-AGENTS/discussions)
 - **Issues**: [Report Bugs or Request Features](https://github.com/JSON-AGENTS/Standard/issues)
 - **Email**: spec@agentsjson.org
 - **Twitter**: [@JSONAgents](https://twitter.com/JSONAgents) _(coming soon)_
@@ -250,32 +251,6 @@ JSON AGENTS is built on established foundations:
 
 ---
 
-## Project Stats
-
-- **888 lines** of specification
-- **7 capability schemas** (100% complete)
-- **4 profiles** (core, exec, gov, graph)
-- **6 tool types** (http, function, plugin, system, mcp, custom)
-- **6+ framework mappings** documented
-- **8 documentation files**
-- **100% JSON Schema validated**
-
----
-
-## Design Philosophy
-
-JSON AGENTS is designed to be:
-
-1. **Simple** — Easy to read and write by humans
-2. **Complete** — Covers all aspects of agent definition
-3. **Flexible** — Modular profiles for different use cases
-4. **Safe** — Built-in security and governance
-5. **Interoperable** — Works with existing frameworks
-6. **Extensible** — Room for innovation without breaking changes
-7. **Standard** — Based on established JSON specifications
-
----
-
 ## License
 
 JSON AGENTS is released under the **Apache 2.0 License**.
@@ -291,6 +266,7 @@ JSON AGENTS draws inspiration from:
 - OpenAPI and AsyncAPI specifications
 - Agent framework developers (LangChain, AutoGen, CrewAI)
 - Model Context Protocol contributors
+- JSONResume.org
 - The broader open-source AI community
 
 Special thanks to all contributors who have helped shape this standard.
@@ -299,9 +275,9 @@ Special thanks to all contributors who have helped shape this standard.
 
 <div align="center">
 
-**Star us on GitHub to show your support!**
+**⭐ Star us on GitHub to show your support!**
 
-[Standard Repository](https://github.com/JSON-AGENTS/Standard) • [Documentation](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [Discussions](https://github.com/orgs/JSON-AGENTS/discussions)
+[Standard Repository](https://github.com/JSON-AGENTS/Standard) • [Documentation](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md)
 
 **Building the future of portable AI agents, together.**
 
