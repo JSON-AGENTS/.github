@@ -15,24 +15,24 @@
 
 ---
 
-## 🌐 What is JSON Agents?
+## 🌐 What is JSON AGENTS?
 
-**JSON Agents** defines the **Portable Agent Manifest (PAM)** — a universal, JSON-native format for describing AI agents, their capabilities, tools, runtimes, and governance in a single, interoperable manifest.
+**JSON AGENTS** defines the **Portable Agent Manifest (PAM)** — a universal, JSON-native format for describing AI agents, their capabilities, tools, runtimes, and governance in a single, interoperable manifest.
 
 It enables seamless agent portability across frameworks, platforms, and ecosystems without code translation.
 
-### Why JSON Agents?
+### Why JSON AGENTS?
 
-- **🔄 Framework Interoperability**: Convert between LangChain, OpenAI, AutoGen, MCP, and custom frameworks
-- **📦 Universal Standard**: One manifest format that works everywhere
-- **🔒 Built-in Governance**: Security policies, sandboxing, and audit trails included
-- **🌐 Multi-Agent Systems**: Orchestrate complex agent graphs with conditional routing
-- **📊 Production Ready**: Complete with URI scheme (`ajson://`) and policy expression language
-- **✅ Schema Validated**: JSON Schema 2020-12 ensures correctness
+- **Framework Interoperability**: Convert between LangChain, OpenAI, AutoGen, MCP, and custom frameworks
+- **Universal Standard**: One manifest format that works everywhere
+- **Built-in Governance**: Security policies, sandboxing, and audit trails included
+- **Multi-Agent Systems**: Orchestrate complex agent graphs with conditional routing
+- **Production Ready**: Complete with URI scheme (`ajson://`) and policy expression language
+- **Schema Validated**: JSON Schema 2020-12 ensures correctness
 
 ---
 
-## 📦 Repository Structure
+## Repository Structure
 
 | Repository | Description | Status |
 |------------|-------------|--------|
@@ -111,9 +111,9 @@ It enables seamless agent portability across frameworks, platforms, and ecosyste
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎯 Complete Capability Suite
+### Complete Capability Suite
 7 standard capabilities with formal JSON schemas:
 - **Summarization** — Condense content intelligently
 - **Routing** — Direct messages by intent
@@ -123,14 +123,14 @@ It enables seamless agent portability across frameworks, platforms, and ecosyste
 - **Extraction** — Extract structured data
 - **Generation** — Create new content
 
-### 🔗 URI Scheme
+### URI Scheme
 Formal `ajson://` URI scheme (RFC 3986 compliant):
 ```
 ajson://example.com/agents/router
 → https://example.com/.well-known/agents/router.agents.json
 ```
 
-### 📜 Policy Expression Language
+### Policy Expression Language
 Declarative access control with rich operators:
 ```json
 {
@@ -138,7 +138,7 @@ Declarative access control with rich operators:
 }
 ```
 
-### 🏗️ Modular Profiles
+### Modular Profiles
 Progressive enhancement with 4 profiles:
 - **Core** — Identity, capabilities, tools (required)
 - **Exec** — Runtime metadata (optional)
@@ -160,7 +160,7 @@ Progressive enhancement with 4 profiles:
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 | Resource | Description |
 |----------|-------------|
@@ -173,35 +173,35 @@ Progressive enhancement with 4 profiles:
 
 ---
 
-## 🌟 Use Cases
+## Use Cases
 
-- **🔄 Framework Migration**: Move agents between LangChain, OpenAI, AutoGen without rewriting
-- **📦 Agent Catalogs**: Build discoverable registries of reusable agents
-- **🏗️ Orchestration**: Define complex multi-agent workflows with conditional routing
-- **🔐 Enterprise Governance**: Enforce security policies and maintain audit trails
-- **📊 Marketplaces**: Standardized format for distributing and monetizing agents
-- **🧪 CI/CD Testing**: Schema-based validation for automated testing pipelines
+- **Framework Migration**: Move agents between LangChain, OpenAI, AutoGen without rewriting
+- **Agent Catalogs**: Build discoverable registries of reusable agents
+- **Orchestration**: Define complex multi-agent workflows with conditional routing
+- **Enterprise Governance**: Enforce security policies and maintain audit trails
+- **Marketplaces**: Standardized format for distributing and monetizing agents
+- **CI/CD Testing**: Schema-based validation for automated testing pipelines
 
 ---
 
-## 🤝 Get Involved
+## Get Involved
 
-### 💬 Community
+### Community
 
 - **Discussions**: [GitHub Discussions](https://github.com/orgs/JSON-AGENTS/discussions)
 - **Issues**: [Report Bugs or Request Features](https://github.com/JSON-AGENTS/Standard/issues)
 - **Email**: spec@agentsjson.org
 - **Twitter**: [@JSONAgents](https://twitter.com/JSONAgents) _(coming soon)_
 
-### 🧑‍💻 Contributing
+### Contributing
 
 We welcome contributions of all kinds:
 
-- 🐛 **Bug Reports**: Found an issue? Let us know!
-- 💡 **Feature Proposals**: Have an idea? Open a discussion!
-- 📝 **Documentation**: Help improve our docs
-- 🔧 **Tools**: Build validators, converters, or integrations
-- 🌍 **Framework Support**: Add mappings for new frameworks
+-  **Bug Reports**: Found an issue? Let us know!
+-  **Feature Proposals**: Have an idea? Open a discussion!
+-  **Documentation**: Help improve our docs
+-  **Tools**: Build validators, converters, or integrations
+- 🌍**Framework Support**: Add mappings for new frameworks
 
 See our [**Contributing Guide**](https://github.com/JSON-AGENTS/Standard/blob/main/CONTRIBUTING.md) for details.
 
@@ -209,9 +209,9 @@ See our [**Contributing Guide**](https://github.com/JSON-AGENTS/Standard/blob/ma
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
-### v1.0 (Current) ✅
+### v1.0 (Current) 
 - ✅ Core, Exec, Gov, Graph profiles
 - ✅ 7 capability schemas with formal validation
 - ✅ URI scheme specification (`ajson://`)
@@ -219,14 +219,14 @@ See our [**Contributing Guide**](https://github.com/JSON-AGENTS/Standard/blob/ma
 - ✅ Framework mapping guide
 - ✅ Complete documentation
 
-### v1.1 (Q1 2026) 🔨
+### v1.1 (Q1 2026) 
 - Reference validator implementations (Python, Node.js, Go)
 - Framework converter CLI tools
 - Public registry service with API
 - Additional capability schemas (dialogue, planning, reasoning)
 - Community extension showcase
 
-### v2.0 (Q3 2026) 🔮
+### v2.0 (Q3 2026) 
 - Real-time profile for streaming agents
 - Evaluation profile for testing/benchmarking
 - Enhanced policy expression functions
@@ -235,7 +235,7 @@ See our [**Contributing Guide**](https://github.com/JSON-AGENTS/Standard/blob/ma
 
 ---
 
-## 🧱 Standards Compliance
+##  Standards Compliance
 
 JSON Agents is built on established foundations:
 
@@ -248,19 +248,19 @@ JSON Agents is built on established foundations:
 
 ---
 
-## 📊 Project Stats
+##  Project Stats
 
-- 📄 **888 lines** of specification
-- 🎯 **7 capability schemas** (100% complete)
-- 📋 **4 profiles** (core, exec, gov, graph)
-- 🔧 **6 tool types** (http, function, plugin, system, mcp, custom)
-- 🌐 **6+ framework mappings** documented
-- 📚 **8 documentation files**
-- ⭐ **100% JSON Schema validated**
+-  **888 lines** of specification
+-  **7 capability schemas** (100% complete)
+-  **4 profiles** (core, exec, gov, graph)
+-  **6 tool types** (http, function, plugin, system, mcp, custom)
+-  **6+ framework mappings** documented
+-  **8 documentation files**
+-  **100% JSON Schema validated**
 
 ---
 
-## 🏆 Design Philosophy
+##  Design Philosophy
 
 JSON Agents is designed to be:
 
@@ -274,7 +274,7 @@ JSON Agents is designed to be:
 
 ---
 
-## 📜 License
+##  License
 
 JSON Agents is released under the **Apache 2.0 License**.
 
@@ -282,7 +282,7 @@ See [LICENSE](https://github.com/JSON-AGENTS/Standard/blob/main/LICENSE) for det
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 JSON Agents draws inspiration from:
 - JSON Schema and JSON-LD communities
@@ -297,7 +297,7 @@ Special thanks to all contributors who have helped shape this standard.
 
 <div align="center">
 
-**⭐ Star us on GitHub to show your support!**
+**Star us on GitHub to show your support!**
 
 [Standard Repository](https://github.com/JSON-AGENTS/Standard) • [Documentation](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [Discussions](https://github.com/orgs/JSON-AGENTS/discussions)
 
