@@ -266,7 +266,7 @@ JSON AGENTS draws inspiration from:
 - OpenAPI and AsyncAPI specifications
 - Agent framework developers (LangChain, AutoGen, CrewAI)
 - Model Context Protocol contributors
-- JSONResume.org
+- [JsonResume.org](https://jsonresume.org)
 - The broader open-source AI community
 
 Special thanks to all contributors who have helped shape this standard.
