@@ -1,4 +1,4 @@
-# JSON Agents
+# JSON AGENTS
 
 <div align="center">
 
@@ -9,19 +9,19 @@
 
 **A Universal JSON Specification for Portable AI Agents**
 
-[📘 Specification](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [🚀 Quick Start](#quick-start) • [💬 Discussions](https://github.com/orgs/JSON-AGENTS/discussions) • [🤝 Contributing](https://github.com/JSON-AGENTS/Standard/blob/main/CONTRIBUTING.md)
+[📘 Specification](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [🤝 Contributing](https://github.com/JSON-AGENTS/Standard/blob/main/CONTRIBUTING.md)
 
 </div>
 
 ---
 
-## What is JSON Agents?
+## What is JSON AGENTS?
 
-**JSON Agents** defines the **Portable Agent Manifest (PAM)** — a universal, JSON-native format for describing AI agents, their capabilities, tools, runtimes, and governance in a single, interoperable manifest.
+**JSON AGENTS** defines the **Portable Agent Manifest (PAM)** — a universal, JSON-native format for describing AI agents, their capabilities, tools, runtimes, and governance in a single, interoperable manifest.
 
 It enables seamless agent portability across frameworks, platforms, and ecosystems without code translation.
 
-### Why JSON Agents?
+### Why JSON AGENTS?
 
 - **Framework Interoperability**: Convert between LangChain, OpenAI, AutoGen, MCP, and custom frameworks
 - **Universal Standard**: One manifest format that works everywhere
@@ -237,7 +237,7 @@ See our [**Contributing Guide**](https://github.com/JSON-AGENTS/Standard/blob/ma
 
 ## Standards Compliance
 
-JSON Agents is built on established foundations:
+JSON AGENTS is built on established foundations:
 
 - ✅ [RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259) — JSON Data Interchange Format
 - ✅ [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) — URI Generic Syntax
@@ -262,7 +262,7 @@ JSON Agents is built on established foundations:
 
 ## Design Philosophy
 
-JSON Agents is designed to be:
+JSON AGENTS is designed to be:
 
 1. **Simple** — Easy to read and write by humans
 2. **Complete** — Covers all aspects of agent definition
@@ -276,7 +276,7 @@ JSON Agents is designed to be:
 
 ## License
 
-JSON Agents is released under the **Apache 2.0 License**.
+JSON AGENTS is released under the **Apache 2.0 License**.
 
 See [LICENSE](https://github.com/JSON-AGENTS/Standard/blob/main/LICENSE) for details.
 
@@ -284,7 +284,7 @@ See [LICENSE](https://github.com/JSON-AGENTS/Standard/blob/main/LICENSE) for det
 
 ## Acknowledgments
 
-JSON Agents draws inspiration from:
+JSON AGENTS draws inspiration from:
 - JSON Schema and JSON-LD communities
 - OpenAPI and AsyncAPI specifications
 - Agent framework developers (LangChain, AutoGen, CrewAI)
@@ -297,7 +297,7 @@ Special thanks to all contributors who have helped shape this standard.
 
 <div align="center">
 
-**⭐ Star us on GitHub to show your support!**
+**Star us on GitHub to show your support!**
 
 [Standard Repository](https://github.com/JSON-AGENTS/Standard) • [Documentation](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [Discussions](https://github.com/orgs/JSON-AGENTS/discussions)
 

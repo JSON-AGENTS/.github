@@ -9,7 +9,7 @@
 
 **A Universal JSON Specification for Portable AI Agents**
 
-[📘 Specification](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [🚀 Quick Start](#quick-start) • [💬 Discussions](https://github.com/orgs/JSON-AGENTS/discussions) • [🤝 Contributing](https://github.com/JSON-AGENTS/Standard/blob/main/CONTRIBUTING.md)
+[📘 Specification](https://github.com/JSON-AGENTS/Standard/blob/main/json-agents.md) • [🤝 Contributing](https://github.com/JSON-AGENTS/Standard/blob/main/CONTRIBUTING.md)
 
 </div>
 
